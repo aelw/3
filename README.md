@@ -8,3 +8,4 @@ http://1002.pw/keerthi.html
 http://1002.pw/a.php
 http://1002.pw/jimin
 https://1002.pw/jin
+https://1002.pw/dove
