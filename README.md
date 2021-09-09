@@ -6,3 +6,4 @@ http://1002.pw/love
 http://1002.pw/shivangi.html
 http://1002.pw/keerthi.html
 http://1002.pw/a.php
+http://1002.pw/jimin
