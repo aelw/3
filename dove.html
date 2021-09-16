@@ -21,10 +21,24 @@ span a {font-size:13px;color:#ccc}
 iframe {margin:0 !important}
 </style>
 
-	<form style='padding:0;margin:0' action="/search" method="get">
-		<input type="text" placeholder="Search" name="q" style="outline:none;width:100%;padding:30px !important;height:45px;border:0;box-sizing:border-box" required size="50" maxlength="255">
-	</form>
-	  
+
+<script>
+	function getParameterByName(name) {
+    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+        results = regex.exec(location.search);
+    return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+}
+var id = getParameterByName('img');
+</script>
+    
+<script language=javascript>
+document.write("\
+<center>   \n\
+  <img src='http://"+id+"' style='width:150px;height:150px;padding:15px;border-radius:25px'>\n\
+</center>");
+</script>
+    	  
 <div style='width:100%'><script>
 u = "https://blog.kakaocdn.net/dn/NtRZT/btreww7aRGB/zvr4ZUYGfoVkPTKt19sli1/img.jpg";
 a = "https://blog.kakaocdn.net/dn/RPMQU/btrewxkFx1Y/mebZ68UkUpQcvBSnfS4yJk/img.jpg";	
