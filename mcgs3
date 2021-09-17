@@ -1,0 +1,128 @@
+<html>
+
+		<head>
+    <title>Minecraft</title>
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+
+			</head>
+  <style>
+   * {color:#000;text-decoration:none;word-break:keep-all}
+    html {background:#fafafa}
+    body {background:#fff;padding:15px;box-sizing:border-box;margin:0 auto;width:80%}
+	  #inline {width:25%;display:inline-block;padding:2px;box-sizing:border-box}
+	  #inline img {padding:5px;box-sizing:border-box;background:#fafafa;border:1px solid #eee;border-radius:15px}
+@media (max-width:1024px) {
+body {width:100%}
+	#inline {width:50%}
+	#inline img {width:100%}
+}
+    </style>
+  <body> 
+
+
+<style>
+	span {font-size:13px;color:#fafafa;margin:10px 0}
+span a {font-size:13px;color:#ccc}
+iframe {margin:0 !important}
+</style>
+
+<script>
+	function getParameterByName(name) {
+    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+        results = regex.exec(location.search);
+    return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+}
+var id = getParameterByName('img');
+</script>
+    
+<script language=javascript>
+document.write("\
+<center>   \n\
+  <img src='http://"+id+"' onerror=\"this.style.display = 'none'\" style='width:150px;height:150px;padding:15px;border-radius:25px'>\n\
+</center>");
+</script>
+    
+	  <center>
+ 
+<div id='inline'>
+<a href='https://blog.kakaocdn.net/dn/EscgN/btrfnaCaVd3/3cK3J8eiy0s6svXfXtnG6k/img.png?attach=1&knm=img.png'>
+<img src='https://blog.kakaocdn.net/dn/LWksG/btrfoSUo6Ug/NoKW6wgn8xTXg6BhYEAKn0/img.png'>
+</a>
+</div><!--
+
+--><div id='inline'>
+<a href='https://blog.kakaocdn.net/dn/bhRJbn/btrfnOFbgVE/kl0n0usoZCpZ2YkKtRgTE1/img.png?attach=1&knm=img.png'>
+<img src='https://blog.kakaocdn.net/dn/Jqzyh/btrfotUPIlz/PsJbPPN82TTc9Jw0WM5ho1/img.png'>
+</a>
+</div><!--
+
+--><div id='inline'>
+<a href='https://blog.kakaocdn.net/dn/cRvwU1/btrfnwY79PP/88AruQce7ZhsAYZ6o8M3K1/img.png?attach=1&knm=img.png'>
+<img src='https://blog.kakaocdn.net/dn/qvTzY/btrfn4VlfRE/2CCCKgUQWHgyxVFBWsEUeK/img.png'>
+</a>
+</div><!--1
+
+--><div id='inline'>
+<a href='https://blog.kakaocdn.net/dn/RZbTT/btrfn3PGkwg/J4eOvQlgDFkQMmHpNbIbr0/img.png?attach=1&knm=img.png'>
+<img src='https://blog.kakaocdn.net/dn/bzRoDd/btrfnaCaYeR/MwKsdzguDY8sfwOGa6kkkK/img.png'>
+</a>
+</div><!--
+
+--><div id='inline'>
+<a href='https://blog.kakaocdn.net/dn/IcrXU/btrfolJpKV9/tvWRKoFhyX7Ck9fQLOTH5k/img.png?attach=1&knm=img.png'>
+<img src='https://blog.kakaocdn.net/dn/7dzyO/btrfn4OBzKM/SH1gQavg9sKM1DubGtwTI1/img.png'>
+</a>
+</div><!--2
+
+--><div id='inline'>
+<a href='https://blog.kakaocdn.net/dn/lljwY/btrfnaIYeJv/BWjNznem1EqZ7xGk5YFTF0/img.png?attach=1&knm=img.png'>
+<img src='https://blog.kakaocdn.net/dn/ALyDW/btrfoSUpeu6/B7sCjvCXqCc4op4Fbd9R6k/img.png'>
+</a>
+</div><!--
+
+--><div id='inline'>
+<a href='https://blog.kakaocdn.net/dn/C1c1y/btrfn3ozkN0/WubowKS1TsOJlzyhfbdZo1/img.png?attach=1&knm=img.png'>
+<img src='https://blog.kakaocdn.net/dn/cv5Sqh/btrfoS097Rz/bP3uOLBG4FFFGaTU7ur7gK/img.png'>
+</a>
+</div><!--3
+
+--><div id='inline'>
+<a href='https://blog.kakaocdn.net/dn/cuYuUG/btrfnbVsgtc/xeMzKrkA4OkVj38SppBqhK/img.png?attach=1&knm=img.png'>
+<img src='https://blog.kakaocdn.net/dn/clJvTx/btrfn4HMXia/iL4I21sS7taMNJFeHk8RkK/img.png'>
+</a>
+</div><!--4
+
+--><div id='inline'>
+<a href='https://blog.kakaocdn.net/dn/wNjPm/btrfot8or4k/EkGkPB08BiAFw1VFW29Ack/img.png?attach=1&knm=img.png'>
+<img src='https://blog.kakaocdn.net/dn/PP8ep/btrfn4OB2zP/0lkfCxnH09ltSLRjSslcV0/img.png'>
+</a>
+</div><!--5
+
+--><div id='inline'>
+<a href='https://blog.kakaocdn.net/dn/TlO7P/btrfnx4MDcJ/eFWpfD8zkEE5VUqmhug2b1/img.png?attach=1&knm=img.png'>
+<img src='https://blog.kakaocdn.net/dn/B2FCR/btrfp3nl1ga/K9zkcuu5Hs68xc2DMnTNd1/img.png'>
+</a>
+</div><!--
+
+--><div id='inline'>
+<a href='https://blog.kakaocdn.net/dn/bJrLGQ/btrfoTlsDgE/nOpaqm1VRqGEfzueBlBew0/img.png?attach=1&knm=img.png'>
+<img src='https://blog.kakaocdn.net/dn/MJ7Rx/btrfpgHtDq7/YXCXYh0pKtAnfUBv7bifZ0/img.png'>
+</a>
+</div><!--
+
+
+--><div id='inline'>
+<a href='https://blog.kakaocdn.net/dn/c2esM3/btrfnlXPVup/hRMH2qpzovHAMVHaFKKPK1/img.png?attach=1&knm=img.png'>
+<img src='https://blog.kakaocdn.net/dn/bo8q3R/btrfpgU1OH8/Ysspdsx3dlRY3r4ETW9u11/img.png'>
+</a>
+</div><!--
+
+-->	  
+	</center>	  
+		  
+  </body>
+</html>
+
+
