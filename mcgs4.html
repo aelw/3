@@ -9,23 +9,16 @@
   <style>
    * {color:#000;text-decoration:none;word-break:keep-all}
     html {background:#fafafa}
-    body {background:#fff;padding:15px;box-sizing:border-box;margin:0 auto;width:80%}
+		body {margin:0;padding:0}
+    #body {background:#fff;padding:15px;box-sizing:border-box;margin:0 auto;width:80%}
 	  #inline {width:25%;display:inline-block;padding:2px;box-sizing:border-box}
 	  #inline img {padding:5px;box-sizing:border-box;background:#fafafa;border:1px solid #eee;border-radius:15px}
 @media (max-width:1024px) {
-body {width:100%}
+#body {width:100%}
 	#inline {width:50%}
 	#inline img {width:100%}
 }
     </style>
-  <body> 
-
-
-<style>
-	span {font-size:13px;color:#fafafa;margin:10px 0}
-span a {font-size:13px;color:#ccc}
-iframe {margin:0 !important}
-</style>
 
 <script>
 	function getParameterByName(name) {
@@ -36,14 +29,27 @@ iframe {margin:0 !important}
 }
 var id = getParameterByName('img');
 </script>
- 
+	
+<div style='position:fixed;background:#fff;padding:15px;box-sizing:border-box !important;width:100%;opacity:0.98;box-shadow:0px 0px 0px 2px rgba(0, 0, 0, .1);'>
+	
 <script language=javascript>
-document.write("\
-<center>   \n\
-  <img src='http://"+id+"' onerror=\"this.style.display = 'none'\" style='width:150px;height:150px;padding:15px;border-radius:25px'>\n\
-</center>");
-</script>	  
-	  
+document.write("<img src='http://"+id+"' onerror=\"this.style.display = 'none'\" style='width:50px;border-radius:10px'>");
+</script>	 
+	
+<img onClick="javascript:window.scrollTo(0,0)" src='https://fonts.gstatic.com/s/i/materialiconsoutlined/keyboard_arrow_up/v15/24px.svg' style='float:right;width:50px'>
+	
+</div>
+	
+<div style='height:80px'></div>	
+	
+  <body><div id='body'> 
+
+<style>
+	span {font-size:13px;color:#fafafa;margin:10px 0}
+span a {font-size:13px;color:#ccc}
+iframe {margin:0 !important}
+</style>
+
 <center><!--	  		  
 --><div id='inline'>
 <a href='https://blog.kakaocdn.net/dn/rEfC8/btrfoHsA3eJ/fjxz8kLhswlrigOn67Ux7K/img.png?attach=1&knm=img.png'>
@@ -170,8 +176,6 @@ a
 
 -->	   
 	</center>	  
-		  
+		  </div>
   </body>
 </html>
-
-
