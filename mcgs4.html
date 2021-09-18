@@ -37,14 +37,14 @@ iframe {margin:0 !important}
 var id = getParameterByName('img');
 </script>
  
-	  <center>
- 
-<div id='inline'>
-<script>
-document.write("<img src='http://"+id+"'>");
-</script>
-</div><!--	  
-		  
+<script language=javascript>
+document.write("\
+<center>   \n\
+  <img src='http://"+id+"' onerror=\"this.style.display = 'none'\" style='width:150px;height:150px;padding:15px;border-radius:25px'>\n\
+</center>");
+</script>	  
+	  
+<center><!--	  		  
 --><div id='inline'>
 <a href='https://blog.kakaocdn.net/dn/rEfC8/btrfoHsA3eJ/fjxz8kLhswlrigOn67Ux7K/img.png?attach=1&knm=img.png'>
 <img src='https://blog.kakaocdn.net/dn/H4EWF/btrfs6qSRRB/ztqWERtV020qcd0uC7g2g1/img.png'>
