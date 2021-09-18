@@ -36,14 +36,12 @@ iframe {margin:0 !important}
 }
 var id = getParameterByName('img');
 </script>
-    
-<script language=javascript>
-document.write("\
-<center>   \n\
-  <img src='http://"+id+"' onerror=\"this.style.display = 'none'\" style='width:150px;height:150px;padding:15px;border-radius:25px'>\n\
-</center>");
+   
+<div style='width:100%;background:#fafafa;padding:15px 0;position:fixed'>	  
+<script>
+document.write("<img src='http://"+id+"' onerror=\"this.style.display = 'none'\" style='width:80px;height:80px;padding:15px;border-radius:25px'>");
 </script>
-    
+</div>
 	  <center>
  
 <div id='inline'>
