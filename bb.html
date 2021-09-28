@@ -27,9 +27,32 @@ span a {font-size:13px;color:#ccc}
 iframe {margin:0 !important}
 </style>
 	  
-	<form style='padding:0;margin:0' action="/search" method="get">
-		<input type="text" placeholder="Search" name="q" style="outline:none;width:100%;padding:30px !important;height:45px;border:0;box-sizing:border-box" required size="50" maxlength="255">
-	</form>	  
+<div style='width:100%'><script>
+	
+function randomItem(a) {
+  return a[Math.floor(Math.random() * a.length)];
+}
+	
+var myTest = new Array('https://blog.kakaocdn.net/dn/y6ej6/btrf5jLSmg0/xPu5xnRspbMJaKVKtVw320/img.jpg', 'https://blog.kakaocdn.net/dn/buMgI1/btrf7BenL5F/wveiqnMuzQIhdFlsJFIMX0/img.jpg', 'https://blog.kakaocdn.net/dn/bVZtQb/btrf3sPLp67/H3p5w8kTJizdDg89gWhGxk/img.jpg');
+var myTest2 = new Array('https://i.pinimg.com/736x/85/6c/dd/856cddfd8cc6c621948cc7314d23a182.jpg', 'https://blog.kakaocdn.net/dn/4cm1Q/btrf5jLSHBb/aiyVqRtclVtkcTc8k66evK/img.jpg', 'http://pm1.narvii.com/6972/cd93761ffd35494bf618787f51664a312a8c6ab1r1-750-717v2_uhq.jpg');
+	
+u = randomItem(myTest);
+a = randomItem(myTest2);
+	
+document.write("\
+<div style='width:50%;display:inline-block;padding:5px;box-sizing:border-box'>\n\
+<a href='"+u+"?attach=1&knm=img.jpg'>\n\
+<div style='height:275px;width:100%;background:url(\"https://img1.daumcdn.net/thumb/R200x0/?scode=mtistory2&fname="+u+"\");background-size:cover;background-position:center;background-repeat:no-repeat;border-radius:5px'></div>\n\
+</a>\n\
+</div>\n\
+	\n\
+<div style='width:50%;display:inline-block;float:right;padding:5px;box-sizing:border-box'>\n\
+<a href='"+a+"?attach=1&knm=img.jpg'>\n\
+<div style='height:275px;width:100%;background:url(\"https://img1.daumcdn.net/thumb/R200x0/?scode=mtistory2&fname="+a+"\");background-size:cover;background-position:center;background-repeat:no-repeat;border-radius:5px'></div>\n\
+</a>\n\
+</div>");
+
+</script></div>	   
 	  
   <div style='width:100%'><script>
 u = "https://blog.kakaocdn.net/dn/LgHs8/btreIXbFGiy/xLdND4NeeptVfeSKvHzN0k/img.jpg";
